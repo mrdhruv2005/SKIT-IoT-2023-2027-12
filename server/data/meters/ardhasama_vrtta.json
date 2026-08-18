@@ -1,0 +1,120 @@
+{
+  "meters": [
+    {
+      "id": "anushtubh",
+      "name_devanagari": "अनुष्टुभ्",
+      "name_iast": "Anuṣṭubh",
+      "name_english": "Śloka",
+      "category": "ardhasama_vrtta",
+      "syllables_per_pada": 8,
+      "pattern": "",
+      "patterns": {
+        "odd": "XXXXXXXX",
+        "even": "XXXGLGGG"
+      },
+      "gana_formula": "",
+      "description": "The most common meter in Sanskrit literature, used in the Bhagavad Gītā, Rāmāyaṇa, Mahābhārata, and most didactic texts. Also called Śloka. The odd pādas (1st and 3rd) have relatively free patterns, while even pādas (2nd and 4th) must have the pattern ....GLGG (the 5th syllable is G, 6th is L, 7th is G, 8th is G). Additionally, the 2nd and 3rd syllable of even pādas should avoid 'GLGG' pattern.",
+      "example_verse": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
+      "example_source": "Bhagavad Gītā 1.1",
+      "aliases": [
+        "shloka",
+        "sloka",
+        "anustubh",
+        "anustup"
+      ],
+      "num_padas": 4,
+      "yati": 0,
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "matra_per_pada": []
+    },
+    {
+      "id": "pushpitagra",
+      "name_devanagari": "पुष्पिताग्रा",
+      "name_iast": "Puṣpitāgrā",
+      "name_english": "Blossom-Tipped",
+      "category": "ardhasama_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "patterns": {
+        "odd": "LLLLLLLLLLLL",
+        "even": "LLLLGLGLGLGG"
+      },
+      "gana_formula": "odd: na-na-na-na, even: na-ja-ja-ra",
+      "description": "An ardhasama vṛtta where odd pādas have 12 syllables (all light) and even pādas have 12 syllables with mixed pattern.",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "matra_per_pada": []
+    },
+    {
+      "id": "aparavaktra",
+      "name_devanagari": "अपरवक्त्रम्",
+      "name_iast": "Aparavaktra",
+      "category": "ardhasama_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "patterns": {
+        "odd": "LLLLGGLGLGG",
+        "even": "LLLLGLGLGLG"
+      },
+      "gana_formula": "",
+      "description": "An ardhasama vṛtta with different patterns for odd and even pādas.",
+      "name_english": "",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "matra_per_pada": []
+    },
+    {
+      "id": "viyogini",
+      "name_devanagari": "वियोगिनी",
+      "name_iast": "Viyoginī",
+      "name_english": "One Separated",
+      "category": "ardhasama_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "patterns": {
+        "odd": "LLGLGGLGG",
+        "even": "LLGLGLLGLGG"
+      },
+      "gana_formula": "",
+      "description": "An ardhasama vṛtta meaning 'One Separated/Bereft'.",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "matra_per_pada": []
+    },
+    {
+      "id": "matta",
+      "name_devanagari": "मत्ता",
+      "name_iast": "Mattā",
+      "category": "ardhasama_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "patterns": {
+        "odd": "GLGLG",
+        "even": "GLGLGLG"
+      },
+      "gana_formula": "",
+      "description": "A short ardhasama vṛtta.",
+      "name_english": "",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "matra_per_pada": []
+    }
+  ],
+  "count": 5
+}

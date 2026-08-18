@@ -1,0 +1,53 @@
+{
+  "meters": [
+    {
+      "id": "udgataa",
+      "name_devanagari": "उद्गता",
+      "name_iast": "Udgatā",
+      "category": "vishama_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "patterns": {
+        "pada1": "LLGLGLG",
+        "pada2": "LLGLGLGLGLG",
+        "pada3": "LLGLGLGLGLGLG",
+        "pada4": "LLGLGLGLG"
+      },
+      "gana_formula": "",
+      "description": "A viṣama vṛtta where all 4 pādas have different lengths.",
+      "name_english": "",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "matra_per_pada": []
+    },
+    {
+      "id": "lalita",
+      "name_devanagari": "ललिता",
+      "name_iast": "Lalitā",
+      "name_english": "Graceful",
+      "category": "vishama_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "patterns": {
+        "pada1": "GLGGLGLGLG",
+        "pada2": "GLGGLGLGG",
+        "pada3": "GLGGLGLGLG",
+        "pada4": "GLGGLGLGG"
+      },
+      "description": "A viṣama vṛtta meaning 'Graceful'.",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "matra_per_pada": [],
+      "gana_formula": ""
+    }
+  ],
+  "count": 2
+}
