@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Database
+*.db
+*.sqlite3
+instance/
+
+# PyTorch models (large files — tracked via Git LFS or downloaded separately)
+server/ml/saved_models/*.pt
+server/ml/saved_models/*.pth
+
+# Node.js
+node_modules/
+client/node_modules/
+
+# Vite build output
+client/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Byte-compiled / optimized
+*.pyc
+
+# Distribution
+*.tar.gz
+*.whl
+
+# Uploads (user-uploaded images)
+server/uploads/
+
+# Cache
+server/cache/
+.cache/

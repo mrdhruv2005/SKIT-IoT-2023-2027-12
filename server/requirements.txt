@@ -1,0 +1,43 @@
+# Backend Dependencies — Chandas Project
+# ========================================
+
+# Flask & Extensions
+flask>=3.0
+flask-cors>=4.0
+flask-jwt-extended>=4.6
+flask-sqlalchemy>=3.1
+flask-migrate>=4.0
+sqlalchemy>=2.0
+
+# Database
+psycopg2-binary>=2.9
+
+# Server
+gunicorn>=21.0
+
+# API Clients
+google-generativeai>=0.8
+groq>=0.11
+
+# Sanskrit/NLP
+indic-transliteration>=2.3
+chanda>=0.3              # REFERENCE ONLY — meter DB extraction + cross-validation
+
+# Auth
+bcrypt>=4.1
+
+# Environment
+python-dotenv>=1.0
+
+# OCR
+pytesseract>=0.3
+opencv-python-headless>=4.8
+Pillow>=10.0
+
+# Testing & Quality
+pytest>=8.0
+black>=24.0
+flake8>=7.0
+
+# Note: PyTorch CPU-only is installed separately in Dockerfile:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
