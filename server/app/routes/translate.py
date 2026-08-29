@@ -58,3 +58,5 @@ def list_languages():
             {"code": "english", "name": "English", "native": "English"},
         ]
     }), 200
+
+# AI Translation Services Module
