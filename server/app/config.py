@@ -42,13 +42,18 @@ class DevelopmentConfig(Config):
     """Development configuration."""
 
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = os.environ.get(
-        "DATABASE_URL",
-        "sqlite:///"
-        + os.path.join(
+
+    @staticmethod
+    def _get_dev_db_uri():
+        """Get database URI, falling back to SQLite if DATABASE_URL is empty."""
+        url = os.environ.get("DATABASE_URL", "")
+        if url:
+            return url
+        return "sqlite:///" + os.path.join(
             os.path.dirname(os.path.dirname(__file__)), "instance", "chandas_dev.db"
-        ),
-    )
+        )
+
+    SQLALCHEMY_DATABASE_URI = _get_dev_db_uri()
 
 
 class ProductionConfig(Config):
