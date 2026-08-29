@@ -1,0 +1,130 @@
+{
+  "meters": [
+    {
+      "id": "arya_jati",
+      "name_devanagari": "आर्या",
+      "name_iast": "Āryā",
+      "name_english": "Noble Lady",
+      "category": "matra_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "matra_per_pada": [
+        12,
+        18,
+        12,
+        15
+      ],
+      "description": "The most important mātrā meter. The 4 pādas have 12, 18, 12, and 15 mātrā respectively. Grouped into gaṇas of 4 mātrā each. Used extensively in Amarakoṣa and subhāṣita literature.",
+      "example_verse": "यस्याष्टौ गुणाः परीक्ष्याः",
+      "aliases": [
+        "aarya",
+        "aaryaa"
+      ],
+      "num_padas": 4,
+      "yati": 0,
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "gana_formula": "",
+      "patterns": {}
+    },
+    {
+      "id": "giti",
+      "name_devanagari": "गीति",
+      "name_iast": "Gīti",
+      "name_english": "Song",
+      "category": "matra_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "matra_per_pada": [
+        12,
+        18,
+        12,
+        18
+      ],
+      "description": "A variant of Āryā where both even pādas have 18 mātrā. Named 'Song'.",
+      "aliases": [
+        "giiti"
+      ],
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "gana_formula": "",
+      "patterns": {}
+    },
+    {
+      "id": "upagiti",
+      "name_devanagari": "उपगीति",
+      "name_iast": "Upagīti",
+      "category": "matra_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "matra_per_pada": [
+        12,
+        15,
+        12,
+        15
+      ],
+      "description": "A variant of Āryā where both even pādas have 15 mātrā.",
+      "name_english": "",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "gana_formula": "",
+      "patterns": {}
+    },
+    {
+      "id": "udgiti",
+      "name_devanagari": "उद्गीति",
+      "name_iast": "Udgīti",
+      "category": "matra_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "matra_per_pada": [
+        12,
+        15,
+        12,
+        18
+      ],
+      "description": "A variant where even pādas have 15 and 18 mātrā respectively.",
+      "name_english": "",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "gana_formula": "",
+      "patterns": {}
+    },
+    {
+      "id": "vaitaaliya",
+      "name_devanagari": "वैतालीय",
+      "name_iast": "Vaitālīya",
+      "category": "matra_vrtta",
+      "syllables_per_pada": 0,
+      "pattern": "",
+      "matra_per_pada": [
+        14,
+        16,
+        14,
+        16
+      ],
+      "description": "A mātrā meter with alternating 14 and 16 mātrā pādas. Associated with the vetāla (ghost/vampire) genre.",
+      "name_english": "",
+      "num_padas": 4,
+      "yati": 0,
+      "example_verse": "",
+      "example_source": "",
+      "source": "Chandaḥśāstra / Vṛttaratnākara",
+      "aliases": [],
+      "gana_formula": "",
+      "patterns": {}
+    }
+  ],
+  "count": 5
+}
